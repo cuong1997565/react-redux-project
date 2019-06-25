@@ -1,0 +1,608 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /var/www/reactjs/react/react
+> git status -z -u
+> git check-ignore -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :src/reducers/isDisplayForm.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :src/actions/index.js
+> git show :src/App.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/reducers/isDisplayForm.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/App.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/components/TaskForm.js
+> git show :src/App.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/components/TaskForm.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/reducers/isDisplayForm.js
+> git show :src/App.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/components/TaskForm.js
+> git show :src/constants/ActionType.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/actions/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/reducers/tasks.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/actions/index.js
+> git show :src/reducers/tasks.js
+> git show :src/components/TaskItem.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/App.js
+> git show :src/components/TaskItem.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/reducers/tasks.js
+> git show :src/actions/index.js
+> git show :src/reducers/tasks.js
+> git show :src/components/TaskItem.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/App.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/actions/index.js
+> git show :src/components/TaskItem.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/constants/ActionType.js
+> git show :src/components/TaskForm.js
+> git show :src/reducers/tasks.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/App.js
+> git show :src/reducers/tasks.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/constants/ActionType.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/actions/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/reducers/tasks.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/constants/ActionType.js
+> git show :src/components/TaskForm.js
+> git show :src/components/TaskItem.js
+> git show :src/actions/index.js
+> git show :src/components/TaskItem.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/reducers/tasks.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/reducers/isDisplayForm.js
+> git show :src/App.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/components/TaskList.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/components/TaskItem.js
+> git show :src/components/TaskForm.js
+> git show :src/components/TaskItem.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/reducers/isDisplayForm.js
+> git show :src/App.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/reducers/isDisplayForm.js
+> git show :src/App.js
+> git show :src/components/TaskForm.js
+> git show :src/reducers/index.js
+> git show :src/components/TaskForm.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/App.js
+> git show :src/components/TaskItem.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/reducers/isDisplayForm.js
+> git show :src/components/TaskItem.js
+> git show :src/reducers/tasks.js
+> git show :src/components/TaskItem.js
+> git show :src/actions/index.js
+> git show :src/components/TaskItem.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/constants/ActionType.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/actions/index.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse cuong
+> git rev-parse --symbolic-full-name cuong@{u}
+fatal: no upstream configured for branch 'cuong'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/reducers/itemEditting.js
+> git ls-files --stage -- src/reducers/
+> git check-ignore -z --stdin
+> git show :src/reducers/index.js
+> git show :src/reducers/isDisplayForm.js
+> git show :src/reducers/itemEditting.js
+> git ls-files --stage -- src/reducers/
+> git show :src/reducers/index.js
+> git show :src/reducers/itemEditting.js
+> git ls-files --stage -- src/reducers/
+> git show :src/components/TaskItem.js
+> git show :src/actions/index.js
+> git show :src/components/TaskItem.js
+> git show :src/actions/index.js
+> git show :src/reducers/itemEditting.js
+> git ls-files --stage -- src/reducers/

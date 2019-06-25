@@ -45,28 +45,7 @@ class App extends Component {
     }
 
     onToggleForm = () => {
-        //Thêm task
-        // if(this.state.isDisplayFrom && this.state.taskEditting !== null){
-        //     this.setState({
-        //           isDisplayFrom : true,
-        //           taskEditting  : null
-        //     });
-        // }
-        // else{
-        //     this.setState({
-        //       isDisplayFrom : !this.state.isDisplayFrom,
-        //       taskEditting  : null
-        //     })
-        // }
-        console.log("data response");
         this.props.onToggleForm();
-    }
-
-    onCloseForm = () => {
-        this.setState({
-            isDisplayFrom: false,
-            taskEditting     : null
-        })
     }
 
     onShowForm = () => {
@@ -74,31 +53,7 @@ class App extends Component {
             isDisplayFrom: true
         })
     }
-    //update status
-    onUpdateStatus = (id) => {
-        var { tasks } = this.state;
-        var index = _.findIndex(tasks, (task) => {
-            return task.id === id;
-        });
-              tasks[index].status = !tasks[index].status;
-              this.setState({
-                 tasks: tasks
-              })
-              localStorage.setItem('tasks', JSON.stringify(tasks));
-    }
-    //delete
-    onDelete = (id) => {
-        var index = this.findIndex(id);
-        var { tasks } = this.state;
-        if(index !== -1){
-            tasks.splice(index,1);
-            this.setState({
-                  tasks: tasks
-            })
-            localStorage.setItem('tasks', JSON.stringify(tasks));
-        }
-        this.onCloseForm();
-    }
+
 
     //update
     onUpdate = (id) => {
@@ -155,7 +110,6 @@ class App extends Component {
         sortBy,
         sortValue } = this.state; //var tasks = this.state.tasks
         var { isDisplayFrom } = this.props;
-        console.log("isDisplayFrom :"+isDisplayFrom); 
         if(filter){
             if(filter.name){
                   
@@ -175,10 +129,6 @@ class App extends Component {
         } else{
            
         }
-
-        var elementTaskForm = isDisplayFrom ? <TaskForm
-                onCloseForm = { this.onCloseForm }
-                task = { taskEditting } /> : '';
         return (
             <div className="container">
                 <div className="text-center">
@@ -186,7 +136,8 @@ class App extends Component {
                 </div>
                 <div className="row">
                     <div className={ isDisplayFrom ? 'col-xs-4 col-sm-4 col-md-4 col-lg-4' : '' }>
-                        {elementTaskForm}
+                    <TaskForm
+                        task = { taskEditting } />
                     </div>
                     <div className= {isDisplayFrom ? 'col-xs-8 col-sm-8 col-md-8 col-lg-8' : 'col-xs-12 col-sm-12 col-md-12 col-lg-12' }>
                         <button
@@ -213,8 +164,6 @@ class App extends Component {
 
 
                         <TaskList
-                        onUpdateStatus = { this.onUpdateStatus }
-                        onDelete = { this.onDelete }
                         onUpdate = { this.onUpdate }
                         onFilter = { this.onFilter } />
                     </div>
@@ -226,16 +175,16 @@ class App extends Component {
 
 const mapStateToProps = state => {
     return {
-        isDisplayForm : state.isDisplayForm
+        isDisplayFrom : state.isDisplayForm,
     };
-};
+}
 
-const mapDispatchToProps = (dispatch,props) => {
+const mapDispatchToProps = (dispatch, props) =>{
     return {
         onToggleForm : () => {
-            dispatch(actions.toggleForm())
+            dispatch(actions.toggleForm());
         }
     };
 }
 
-export default connect(mapStateToProps,mapDispatchToProps)(App) ;
+export default connect(mapStateToProps, mapDispatchToProps)(App);
