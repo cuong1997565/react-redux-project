@@ -24,7 +24,6 @@ class TaskList extends Component {
            });
     }
     render() {
-        console.log("data response :");
         var { tasks } = this.props;
         var {filterName, filterStatus} = this.state;
         var elmTasks = tasks.map((task, index) => {
