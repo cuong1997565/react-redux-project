@@ -3,14 +3,13 @@ import './App.css';
 import TaskList from './components/TaskList';
 import TaskForm from './components/TaskForm';
 import TaskControl from './components/TaskControl';
-import _ from 'lodash';
+// import _ from 'lodash';
 import { connect } from 'react-redux';
 import * as actions from './actions/index';
 class App extends Component {
     constructor (props) {
         super(props);
         this.state = {
-            taskEditting  : null,
             filter        : {
                 name   : '',
                 status : -1
@@ -41,29 +40,22 @@ class App extends Component {
         ];
 
         localStorage.setItem('tasks', JSON.stringify(tasks));
-
     }
 
     onToggleForm = () => {
-        this.props.onToggleForm();
-    }
-
-    onShowForm = () => {
-        this.setState({
-            isDisplayFrom: true
-        })
-    }
-
-
-    //update
-    onUpdate = (id) => {
-        var { tasks } = this.state;
-        var index = this.findIndex(id);
-        var taskEditting = tasks[index];
-        this.setState({
-             taskEditting: taskEditting
+        var { itemEditting } = this.props;
+        // console.log("data response :"+ itemEditing);
+        console.log(itemEditting.id);
+        if (itemEditting && itemEditting.id !== '') {
+            this.props.onOpenForm();
+        } else {
+            this.props.onToggleForm();
+        }
+        this.props.onClearTask({
+            id : '',
+            name : '',
+            status : false
         });
-        this.onShowForm();
     }
     //filter
     onFilter = (filterName , filterStatus) => {
@@ -90,21 +82,8 @@ class App extends Component {
             });
     }
 
-    //find id
-    findIndex = (id) => {
-        var {tasks} = this.state;
-        var result = -1;
-        tasks.forEach((task, index) => {
-            if(task.id === id){
-                result = index;
-            }
-        });
-        return result;
-    }
-
     render() {
         var {
-        taskEditting,
         filter,
         keyword,
         sortBy,
@@ -137,7 +116,7 @@ class App extends Component {
                 <div className="row">
                     <div className={ isDisplayFrom ? 'col-xs-4 col-sm-4 col-md-4 col-lg-4' : '' }>
                     <TaskForm
-                        task = { taskEditting } />
+                    />
                     </div>
                     <div className= {isDisplayFrom ? 'col-xs-8 col-sm-8 col-md-8 col-lg-8' : 'col-xs-12 col-sm-12 col-md-12 col-lg-12' }>
                         <button
@@ -164,7 +143,7 @@ class App extends Component {
 
 
                         <TaskList
-                        onUpdate = { this.onUpdate }
+                        // onUpdate = { this.onUpdate }
                         onFilter = { this.onFilter } />
                     </div>
                 </div>
@@ -176,6 +155,7 @@ class App extends Component {
 const mapStateToProps = state => {
     return {
         isDisplayFrom : state.isDisplayForm,
+        itemEditting : state.itemEditting
     };
 }
 
@@ -183,6 +163,12 @@ const mapDispatchToProps = (dispatch, props) =>{
     return {
         onToggleForm : () => {
             dispatch(actions.toggleForm());
+        },
+        onClearTask : (task) =>{
+            dispatch(actions.editTask(task));
+        },
+        onOpenForm : () => {
+            dispatch(actions.openForm());
         }
     };
 }

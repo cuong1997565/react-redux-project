@@ -14,7 +14,6 @@ class TaskList extends Component {
            var target = event.target;
            var name   = target.name;
            var value  = target.value;
-           console.log(value);
            this.props.onFilter(
               name === 'filterName' ? value : this.state.filterName,
               name === 'filterStatus' ? value : this.state.filterStatus
@@ -31,10 +30,6 @@ class TaskList extends Component {
                key={task.id}
                index={index}
                task={task}
-               onUpdateStatus = { this.props.onUpdateStatus }
-               onDelete       = { this.props.onDelete }
-               onUpdate       = { this.props.onUpdate }
-
                 />
         });
         return (

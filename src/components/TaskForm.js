@@ -29,7 +29,7 @@ class TaskForm extends Component {
 
     onSubmit = (event) => {
         event.preventDefault();
-        this.props.onAddTask(this.state);
+        this.props.onSaveTask(this.state);
         this.onClose();
         this.onCloseForm();
     }
@@ -42,24 +42,23 @@ class TaskForm extends Component {
     }
 
     componentWillMount(){
-            if(this.props.task){
+            if(this.props.itemEditting){
                 this.setState({
-                      id     : this.props.task.id,
-                      name   : this.props.task.name,
-                      status : this.props.task.status
+                      id     : this.props.itemEditting.id,
+                      name   : this.props.itemEditting.name,
+                      status : this.props.itemEditting.status
                 });
-                console.log(this.state);
             }
     }
 
     componentWillReceiveProps(nextProps){
-            if(nextProps && nextProps.task){
+            if(nextProps && nextProps.itemEditting){
                 this.setState({
-                    id     :  nextProps.task.id,
-                    name   :  nextProps.task.name,
-                    status :  nextProps.task.status
+                    id     :  nextProps.itemEditting.id,
+                    name   :  nextProps.itemEditting.name,
+                    status :  nextProps.itemEditting.status
                 });
-            } else if(nextProps && nextProps.task === null){
+            } else if(nextProps && nextProps.itemEditting === null){
                 this.setState({
                     id     :     '',
                     name   :     '',
@@ -70,14 +69,13 @@ class TaskForm extends Component {
 
 
     render() {
-        var { id } = this.state
         var { isDisplayForm } = this.props
         if(!isDisplayForm) return ''
         return (
             <div className="panel panel-warning">
                 <div className="panel-heading">
                     <h3 className="panel-title">
-                       { id !== '' ? 'Cập Nhập Công Việc' : 'Thêm Công Việc' }
+                       { this.props.itemEditting.id !== '' ? 'Cập Nhập Công Việc' : 'Thêm Công Việc' }
                         <span
                             className="fa fa-times-circle text-right"
                             onClick={ this.onCloseForm }
@@ -123,14 +121,15 @@ class TaskForm extends Component {
 
 const mapStateToProps = state => {
     return {
-        isDisplayForm : state.isDisplayForm
+        isDisplayForm : state.isDisplayForm,
+        itemEditting : state.itemEditting
     }
 };
 
 const mapDispatchToProps = (dispatch, props) => {
     return {
-        onAddTask : (task) => {
-           dispatch(actions.addTask(task))
+        onSaveTask : (task) => {
+           dispatch(actions.onSaveTask(task))
         },
         onCloserForm : () => {
             dispatch(actions.closeForm());
