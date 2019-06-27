@@ -7,45 +7,54 @@ import TaskControl from './components/TaskControl';
 import { connect } from 'react-redux';
 import * as actions from './actions/index';
 class App extends Component {
-    constructor (props) {
-        super(props);
-        this.state = {
-            filter        : {
-                name   : '',
-                status : -1
-            },
-            keyword   : '',
-            sortBy    : 'name',
-            sortValue :  1
-        }
-    }
+    // constructor (props) {
+    //     super(props);
+    //     this.state = {
+    //         sortBy    : 'name',
+    //         sortValue :  1
+    //     }
+    // }
 
-    onGenerateData = () => {
-        var tasks = [
-            {
-                id     : this.generateID(),
-                name   : 'Hoc lap trinh',
-                status : true
-            },
-            {
-                id     : this.generateID(),
-                name   : 'Di boi',
-                status : false
-            },
-            {
-                id     : this.generateID(),
-                name   : 'Ngu',
-                status : true
-            }
-        ];
+    // componentWillMount(){
+    //     if(localStorage && localStorage.getItem('tasks')){
+    //            var tasks = JSON.parse(localStorage.getItem('tasks'));
+    //            this.setState({
+    //                 tasks: tasks
+    //            });
+    //     }
+    // }
+    // s4(){
+    //     return Math.floor((1* Math.random() ) * 0x10000).toString(16).substring(1);
+    // }
+    // generateID(){
+    //     return this.s4() + this.s4() + '-' + this.s4();
+    // }
 
-        localStorage.setItem('tasks', JSON.stringify(tasks));
-    }
+
+    // onGenerateData = () => {
+    //     var tasks = [
+    //         {
+    //             id     : this.generateID(),
+    //             name   : 'Hoc lap trinh',
+    //             status : true
+    //         },
+    //         {
+    //             id     : this.generateID(),
+    //             name   : 'Di boi',
+    //             status : false
+    //         },
+    //         {
+    //             id     : this.generateID(),
+    //             name   : 'Ngu',
+    //             status : true
+    //         }
+    //     ];
+
+    //     localStorage.setItem('tasks', JSON.stringify(tasks));
+    // }
 
     onToggleForm = () => {
         var { itemEditting } = this.props;
-        // console.log("data response :"+ itemEditing);
-        console.log(itemEditting.id);
         if (itemEditting && itemEditting.id !== '') {
             this.props.onOpenForm();
         } else {
@@ -57,57 +66,8 @@ class App extends Component {
             status : false
         });
     }
-    //filter
-    onFilter = (filterName , filterStatus) => {
-        filterStatus = parseInt(filterStatus,10);
-
-        this.setState({
-            filter : {
-                name    : filterName.toLowerCase(),
-                status  : filterStatus
-            }
-        });
-    }
-    //sreach
-    onSreach = (keyword) => {
-        this.setState({
-            keyword :keyword
-        });
-    }
-
-    onSort = (sortBy, sortValue) => {
-            this.setState({
-               sortBy: sortBy,
-               sortValue: sortValue
-            });
-    }
-
     render() {
-        var {
-        filter,
-        keyword,
-        sortBy,
-        sortValue } = this.state; //var tasks = this.state.tasks
         var { isDisplayFrom } = this.props;
-        if(filter){
-            if(filter.name){
-                  
-
-            }
-        }
-
-        if(keyword){
-            // tasks = tasks.filter((task) => {
-            //     return task.name.toLowerCase().indexOf(keyword) !== -1;
-            // });
-         
-        }
-
-        if (sortBy === 'name'){
-         
-        } else{
-           
-        }
         return (
             <div className="container">
                 <div className="text-center">
@@ -126,25 +86,18 @@ class App extends Component {
                             <span className="fa fa-plus mr-5"></span>
                             Thêm Công Việc
                         </button>
-                        <button
+                        {/* <button
                         type="button"
                         className="btn btn-danger ml-5"
                         onClick={this.onGenerateData}>
                             <span className="fa fa-plus mr-5"></span>
                             Generate Data
-                        </button>
+                        </button> */}
 
                         <TaskControl
-                        onSreach   = {this.onSreach}
-                        onSort     = {this.onSort}
-                        sortBy     = {sortBy}
-                        sortValue  = {sortValue}
                          />
-
-
                         <TaskList
-                        // onUpdate = { this.onUpdate }
-                        onFilter = { this.onFilter } />
+                        />
                     </div>
                 </div>
             </div>
